@@ -25,7 +25,7 @@ Backend part is in pending state.
 
 ## How to use this extension
 Follow these steps:
-- clone this repo using command `git clone ......`
+- clone this repo using command `git clone https://github.com/Ayumilan/Chrome_Extension.git`
 - Open your chorme browser and got to this url `chrome://extensions/`
 - Switch on the Developer mode option which is on the top right corner. click on load unpacked.
   ![image](https://user-images.githubusercontent.com/60690689/218144114-d56e47f5-e89e-4114-869a-758283b2e9dc.png)
