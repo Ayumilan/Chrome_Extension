@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "Image Proctoring Extension",
+  "version": "1.0.0",
+  "background": {
+    "service_worker": "background-sw.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "permissions": [
+    "webRequest",
+    "<all_urls>",
+    "storage",
+    "tabs"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["popup.html","popup.js","index.html","index.js"],
+      "use_dynamic_url": true
+    }
+
+  ]
+}
+
+
+
+
+
+
